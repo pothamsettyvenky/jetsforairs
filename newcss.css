@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2020, 12:05:33 PM
+*/
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}    
+
+
+body{
+    width:100%;
+    height: 100%;
+    margin:0;
+        
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+  color: #ededed;
+}  
+
+.header{
+    
+   background-color:#000;
+   color: #fff;
+   border-color: #080808;
+   min-height: 50px;
+   border:1px solid transparent;
+    
+}
+
+
+.inner-header{
+    width: 80%;
+    margin: auto;
+}
+
+
+.logo{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight:italic;
+    
+
+}
+  
+/*.header-link{
+    float:right; 
+    font-size:14px;
+    padding-top:15px;
+    padding-right: 15px;
+   
+    
+}
+*/
+
+
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+ color:#9d9d9d;
+ bottom: 0;
+ width: 100%;
+}  
+
+
+.content1{
+    min-height: 600px;
+    
+}
+
+.banner-image{
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("images/intro-bg_1.jpg")no-repeat center;
+    background-size: cover;
+    
+}
+.inner-baner-image{
+    padding-left: 12%;
+    width: 80%;
+    margin:auto;
+}
+.banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 16%;
+    overflow: hidden;
+    margin-bottom: 12%;
+    margin-left: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    max-width: 360px;
+    max-height:100px;
+}
+.button{
+    color: #fff; 
+    background-color: #c9302c; 
+    border-color: #ac2925; 
+    padding:10px 10px;
+    border-radius: 5px;
+   
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+}
+img{
+
+}
+
+.items{
+    width:30%; 
+    display:block; 
+    padding: 4px; 
+    margin-bottom: 20px; 
+    line-height: 1.42857143; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    float:left; 
+    margin-left:1%;
+}
+.thumbnail{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+}
+.caption{
+    color:#000;
+    padding-top:00px;
+    text-align: center;
+    
+}
+.items1{
+    width:30%; 
+    display:block; 
+    padding: 4px; 
+    margin-bottom: 20px; 
+    line-height: 1.42857143; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    float:left; 
+    margin-left:1%;
+}
+.items2{
+    width:30%; 
+    display:block; 
+    padding: 4px; 
+    margin-bottom: 20px; 
+    line-height: 1.42857143; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    float:left; 
+    margin-left:1%;
+}

@@ -1,0 +1,3 @@
+<?php readfile("tech.php");?>
+
+

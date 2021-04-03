@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+  }
+ 
+    html,body{
+        overflow-x: hidden;
+        height:100%;
+    }  
+body{
+    background-image:url('images/aeroo.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding:0;
+}
+.header{
+   background: gray;
+    position: absolute;
+    width:100%;
+    height: 60px;
+    top:0px;
+    z-index: 10;
+    padding-left: 50px;
+   
+    
+   
+}
+.sidebariconToggle{
+   
+    width:22px;
+    height:22px;
+    position:absolute;
+    z-index: 20;
+    top:17px;
+    left:15px;
+    cursor: pointer;
+}
+
+.sidebar{
+    
+    height: 100%;
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    margin-top:60px;
+    background:gray;
+    transform: translateX(-250px);
+    transition: 250ms ease-in;
+      
+}
+#openSidebarMenu:checked ~.sidebar{
+ transform: translateX(0px);
+}
+.menu{
+    list-style:none;
+    padding:0;
+    margin:0;
+    
+}
+.menu li{
+    color:#fff;
+    border: 1px solid white;
+}
+.menu li a{
+    color:#fff;
+    display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding:20px;
+   text-align: center;
+}
+.menu li a:hover{
+    font-style: normal;
+    font-family: monospace;
+    background-color:lightblue;
+    font-size: 20px;
+    transform: scaley(1.3);
+    transition: all 0.4s ease-out;
+}
+
+.mine{
+    height:3px;
+    background: #fff;
+    transition:all 0.1s ease;
+    transition-delay: 0.9s;
+}
+.mine.middle,
+.mine.bottom{
+    margin-top: 5px;
+}
+.jumbotron{
+ background-color:rgba(0,0,0,0.1);
+ color:lightblue;
+ 
+ margin:100px;
+}
+.thumbnail{
+    background-color: transparent;
+}
+.thumbnail h1 {
+    color:white;
+}
+.thumbnail p{
+    
+   color:white;
+}
+input{
+    font-size: 30px;
+    color:black;
+    border-radius: 2px ;
+    border:2px solid black;
+}
+.chop{
+    height: 2500px;
+}

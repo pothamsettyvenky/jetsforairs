@@ -1,0 +1,17 @@
+<?php
+$email=$_POST['Email'];
+$password = $_POST['password'];
+$conn=new mysqli('localhost', 'root', '', 'registration' );
+if($conn->connect_error){
+    die('Connection Failed:'.$conn->connect_error);
+    
+}
+else{
+    $stmt=$conn->prepare("insert into register(Email,password)values(?,?)");
+    $stmt->bind_param("ss",Email,password);
+    $stmt->execute();
+    echo 'Lo-gin successed';
+    $stmt->close();
+    $conn->close();
+}
+?>

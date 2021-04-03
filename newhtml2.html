@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <title>TODO supply a title</title>
+        <style>
+            body{
+                margin:0;
+                top:0;
+                left:0;}
+            div{
+                height: 100px;
+                width: 100px;
+                background-color: grey;
+                opacity: 0.8;
+            box-shadow: 0px  10px 15px black;}
+        p{
+            margin:0;
+        left:0;
+        color:red;}</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>venky</div>
+                <p class="demo">venky1</p>
+                <a name="venky">venky</a>
+                <a name="venky">venky</a><br>
+                <form action=" "name="myform" method="POST">
+                <input type="text" id="id" name="name"><br>
+  <input type="email" id="pass" name="email" ><br>
+    <input type="button" id="butt"  onclick="setCookies()" name="set" value="setCookies" value="display"><br>
+     <input type="button" id="butt" onclick="getCookies()"name="get" value="getCookies">
+                </form>
+        <script>
+            
+            function setCookies(){
+                document.cookie="name="+document.myform.name.value;
+                document.cookie="email="+document.myform.email.value;
+            }
+            function getCookies(){
+                var data1=document.cookie.split(";");
+                for(var i =0;i<data1.length;i++){
+                    var dataCollect=data1[i].split("=");
+                   if(dataCollect[0] == 'name'){
+                       document.myform.name.value=dataCollect[1]s
+                       
+                   } 
+                }
+                
+                 
+            }
+            $(".demo").css("background","rgba(0,0,0,1)");
+            $(".demo").css("text-transform","uppercase");
+            $("#butt").mouseout(function(){$(".demo").hide();});
+           document.getElementById("butt").addEventListener("click",alertdate);
+           function alertdate(){
+               var ele=document.getElementById("id");
+               var passele=document.getElementById ("pass");
+                   if( ele==="venky"){
+               
+               alert("you are ready to login");
+           }
+          
+       }
+      /*   function  vee(){
+              var  samparr=["venky","kiran",11];
+          var ar=  prompt("vnky");
+          samparr.push(ar);
+          samparr.length+=1;
+          var d=new Date();
+          document.write(d.setFullYear(2019,12,12));
+          var saa="";
+          for(var i=0;i<samparr.length;i++)
+          {
+              saa+=samparr[i]+"<br>";
+          }
+          
+            alert(samparr.length);
+           }*/
+           
+        </script>
+    </body>
+</html>
+ 
